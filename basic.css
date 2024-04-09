@@ -1,24 +1,20 @@
 .container > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #ffeead;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #FFEEAD;
 }
-
 html, body {
-  background-color: #ffeead;
-  margin: 10px;
+background-color: #FFEEAD;
+margin: 10px;
 }
-
 .container > div:nth-child(1n) {
-  background-color: #96ceb4;	
+background-color: #96CEB4;
 }
-
 .container > div:nth-child(3n) {
-  background-color: #88d8b0;
+background-color: #88D8B0;
 }
-
 .container > div:nth-child(2n) {
-      background-color: #ff6f69;
+    background-color: #FF6F69;
 }
