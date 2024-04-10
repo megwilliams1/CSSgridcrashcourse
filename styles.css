@@ -3,9 +3,9 @@
     grid-template: repeat(2, 40px 200px) / repeat(12, 1fr);
     grid-gap: 3px;
     grid-template-areas:
-    "h h h h h h h h h h h h"
+    ". h h h h h h h h h h ."
     "m c c c c c c c c c c c"
-    "f f f f f f f f f f f f";
+    ". f f f f f f f f f f .";
 }
 .header {
    grid-area: h;
