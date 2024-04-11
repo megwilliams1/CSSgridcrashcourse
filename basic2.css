@@ -1,0 +1,16 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #FFEEAD;
+}
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+html, body {
+    background-color: #FFEEAD;
+    margin: 10px;
+}
